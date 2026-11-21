@@ -1,0 +1,14 @@
+Original project: https://github.com/NFraw/Tongzhuo
+Upstream revision: 712a13ba3e8e4d5b34a9bbbd9580be24fc3c95d3
+Copyright (c) 2026 NFraw. MIT License (see LICENSE).
+
+The card utilities, engine, hand recognition/comparison, validation, server plugin,
+state types and original 41 hand tests are derived from Tongzhuo and the user's
+landlord-fix archive. The supplied fixes to rocket priority, equal sequence length,
+integer bidding, duplicate IDs and missing-player view handling are retained.
+Changes here adapt imports and injected randomness, and add the Vue UI, platform
+account integration, SQLite rooms, request receipts, version checks, tests and docs.
+
+No upstream React/PixiJS runtime, unrelated games, desktop distribution, third-party
+audio or artwork is bundled. Card faces are rendered with CSS and Unicode symbols.
+This is an independently runnable adaptation, not the upstream project's official release.

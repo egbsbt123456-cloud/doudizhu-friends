@@ -1,0 +1,1 @@
+{"name":"@board/game-core","version":"0.0.0","private":true,"type":"module","exports":{".":"./src/index.ts","./landlord-hand":"./src/landlord/hand.ts"},"scripts":{"build":"tsc --noEmit","typecheck":"tsc --noEmit"},"dependencies":{"@board/contracts":"workspace:*"}}

@@ -1,0 +1,7 @@
+<script setup lang="ts">
+defineProps<{role:'landlord'|'farmer'}>();
+</script>
+<template>
+ <svg v-if="role==='landlord'" viewBox="0 0 48 48" role="img" aria-label="地主冠徽"><path d="M8 15 17 22 24 10 31 22 40 15 35 34H13Z" fill="#ae782a" stroke="#7e5725" stroke-width="1.5" stroke-linejoin="round"/><path d="M14 29H34L33 34H15Z" fill="#f6d78a"/><circle cx="8" cy="14" r="3" fill="#f9df9b" stroke="#ad823e"/><circle cx="24" cy="9" r="3" fill="#f9df9b" stroke="#ad823e"/><circle cx="40" cy="14" r="3" fill="#f9df9b" stroke="#ad823e"/><path d="M14 38H34" stroke="#8b602c" stroke-width="3" stroke-linecap="round"/><path d="m24 20 3 4-3 4-3-4Z" fill="#fff2c7"/></svg>
+ <svg v-else viewBox="0 0 48 48" role="img" aria-label="农民麦穗徽"><path d="M24 39V11M24 28 16 20M24 28 32 20" stroke="#65733c" stroke-width="2.5" stroke-linecap="round"/><g fill="#b3a85c" stroke="#7e8245" stroke-width="1"><ellipse cx="20" cy="13" rx="3.2" ry="5.7" transform="rotate(-35 20 13)"/><ellipse cx="28" cy="13" rx="3.2" ry="5.7" transform="rotate(35 28 13)"/><ellipse cx="18" cy="21" rx="3.3" ry="5.9" transform="rotate(-48 18 21)"/><ellipse cx="30" cy="21" rx="3.3" ry="5.9" transform="rotate(48 30 21)"/><ellipse cx="18" cy="29" rx="3.3" ry="5.9" transform="rotate(-55 18 29)"/><ellipse cx="30" cy="29" rx="3.3" ry="5.9" transform="rotate(55 30 29)"/></g><path d="M18 40H30" stroke="#65733c" stroke-width="2" stroke-linecap="round"/></svg>
+</template>
